@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasindu ramanayake | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">Yasindu<span>.</span></div>
+    <nav id="navbar" class="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="menu-btn" class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Yasindu ramanayake</span></h1>
+      <h2><span class="typing-target"></span></h2>
+      <p>I create modern websites and applications that combine design and functionality.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Hire Me</a>
+        <button onclick="window.open('./assets/ITT.2023.032 CV.pdf')" class="btn secondary">View CV</button>
+
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="about-grid">
+      <img src="potrate.jpg" alt="Portrait of yasindu ramanayake" class="about-img">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am an undergraduate in Information and Communication Technology at Rajarata University of Sri Lanka.
+          Passionate about frontend development, UI/UX, and building responsive, user-friendly applications.
+        </p>
+        <ul class="about-list">
+          <li><i class="fa-solid fa-location-dot"></i> Matara, Sri Lanka</li>
+          <li><i class="fa-solid fa-envelope"></i> example@email.com</li>
+          <li><i class="fa-solid fa-code"></i> Web & Software Development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+      <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+      <div class="skill-card"><i class="fa-brands fa-react"></i> React</div>
+      <div class="skill-card"><i class="fa-brands fa-node"></i> Node.js</div>
+      <div class="skill-card"><i class="fa-solid fa-database"></i> MySQL</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1">
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio built with HTML, CSS, and JS.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Project 2">
+        <div class="project-info">
+          <h3>Inventory System</h3>
+          <p>Inventory management app with React and MySQL.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section experience">
+    <h2>Experience & Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="content">
+          <h3>Bachelor in ICT</h3>
+          <span>Rajarata University (2023 - Present)</span>
+          <p>Studying software development, networking, and digital systems.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <i class="fa-solid fa-briefcase"></i>
+        <div class="content">
+          <h3>Freelance Projects</h3>
+          <span>2024 - Present</span>
+          <p>Developed responsive websites and small applications for clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> example@email.com</p>
+        <p><i class="fa-solid fa-phone"></i> +94 74 0753063</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+   <!-- Social Media Icons with Images -->
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/yasindu-ramanayake-b5b208337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app target="_blank>
+    <img src="images/linkedin.png" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/" target="_blank">
+    <img src="images/github.png" alt="GitHub" />
+  </a>
+  <a href="mailto:example@email.com">
+    <img src="images/email.png" alt="Email" />
+  </a>
+</div>
+
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Yasindu ramanayake. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
